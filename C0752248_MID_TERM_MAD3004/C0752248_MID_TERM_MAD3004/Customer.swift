@@ -20,6 +20,13 @@ class Customer: IDisplay{
     var arrayBills: [Bill]?
     var totalBill: Float?
     
+    init(customerId: Int,firstName: String,lastName: String,email: String,arrayBills: [Bill]) {
+        self.customerId = customerId
+        self.firstName = firstName
+        self.lastName = lastName
+        self.email = email
+        self.arrayBills = arrayBills
+    }
     
     func display() {
         
