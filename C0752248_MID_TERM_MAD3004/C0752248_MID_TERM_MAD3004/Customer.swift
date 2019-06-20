@@ -8,7 +8,8 @@
 
 import Foundation
 
-class Customer{
+class Customer: IDisplay{
+    
     let customerId: Int?
     var firstName: String?
     var lastName: String?
@@ -18,5 +19,10 @@ class Customer{
     let email: String?
     var arrayBills: [Bill]?
     var totalBill: Float?
+    
+    
+    func display() {
+        
+    }
     
 }
