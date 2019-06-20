@@ -8,5 +8,10 @@
 
 import Foundation
 
+var 
 
+
+
+
+var c1:Customer = Customer.init(customerId: 1, firstName: "Udhay", lastName: "Mahajan", email: "udaymahajan0@gmail.com", arrayBills: [])
 
