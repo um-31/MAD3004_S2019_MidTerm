@@ -29,7 +29,12 @@ class Customer: IDisplay{
     }
     
     func display() {
-        
+        print("Customer Id: ",customerId!)
+        print("Full Name: ",fullName)
+        print("Email: ",email!)
+        for bill in self.arrayBills! {
+            bill.display()
+        }
     }
     
 }

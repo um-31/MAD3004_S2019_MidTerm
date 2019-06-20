@@ -14,6 +14,7 @@
 		FBF97C6C22BC42AE00EEB77C /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF97C6B22BC42AE00EEB77C /* Mobile.swift */; };
 		FBF97C6E22BC42C500EEB77C /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF97C6D22BC42C500EEB77C /* Hydro.swift */; };
 		FBF97C7022BC42DA00EEB77C /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF97C6F22BC42DA00EEB77C /* IDisplay.swift */; };
+		FBF97C7522BC4A1D00EEB77C /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF97C7422BC4A1D00EEB77C /* Dollar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		FBF97C6B22BC42AE00EEB77C /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		FBF97C6D22BC42C500EEB77C /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		FBF97C6F22BC42DA00EEB77C /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		FBF97C7422BC4A1D00EEB77C /* Dollar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		FBF97C5D22BC3AB400EEB77C /* C0752248_MID_TERM_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
+				FBF97C7322BC4A0000EEB77C /* Extention */,
 				FBF97C5E22BC3AB400EEB77C /* main.swift */,
 				FBF97C6522BC41D900EEB77C /* Customer.swift */,
 				FBF97C6722BC428A00EEB77C /* Bill.swift */,
@@ -78,6 +81,14 @@
 				FBF97C6F22BC42DA00EEB77C /* IDisplay.swift */,
 			);
 			path = C0752248_MID_TERM_MAD3004;
+			sourceTree = "<group>";
+		};
+		FBF97C7322BC4A0000EEB77C /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				FBF97C7422BC4A1D00EEB77C /* Dollar.swift */,
+			);
+			path = Extention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 				FBF97C6822BC428A00EEB77C /* Bill.swift in Sources */,
 				FBF97C7022BC42DA00EEB77C /* IDisplay.swift in Sources */,
 				FBF97C6A22BC429F00EEB77C /* Internet.swift in Sources */,
+				FBF97C7522BC4A1D00EEB77C /* Dollar.swift in Sources */,
 				FBF97C6E22BC42C500EEB77C /* Hydro.swift in Sources */,
 				FBF97C6622BC41D900EEB77C /* Customer.swift in Sources */,
 			);
