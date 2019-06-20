@@ -9,5 +9,6 @@
 import Foundation
 
 class Hydro{
-    
+    let agencyName: String?
+    var unitsConsumed: Float?
 }

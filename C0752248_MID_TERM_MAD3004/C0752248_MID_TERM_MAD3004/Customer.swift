@@ -9,5 +9,14 @@
 import Foundation
 
 class Customer{
+    let customerId: Int?
+    var firstName: String?
+    var lastName: String?
+    var fullName: String{
+        return "\(firstName!) \(lastName!)"
+    }
+    let email: String?
+    var arrayBills: [Bill]?
+    var totalBill: Float?
     
 }

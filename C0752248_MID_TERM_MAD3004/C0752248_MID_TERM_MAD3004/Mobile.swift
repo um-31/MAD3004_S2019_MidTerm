@@ -9,5 +9,9 @@
 import Foundation
 
 class Mobile{
-    
+    let mobileManufacturer: String?
+    var planName: String?
+    var mobileNo: Int64?
+    var netUsed: Float?
+    var minuteUsed: Float?
 }

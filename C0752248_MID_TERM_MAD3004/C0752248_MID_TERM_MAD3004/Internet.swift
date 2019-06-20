@@ -8,6 +8,9 @@
 
 import Foundation
 
-class Internet{
+class Internet: Bill{
+    let providerName: String?
+    var internetUsed: Float?
+    
     
 }
