@@ -19,7 +19,6 @@ class Internet: Bill{
     }
     
     override func display() {
-        print("----Bill Information----")
         print("********************************")
         print("Bill Id: ",billId!)
         print("Bill Date: ",billDate!)
