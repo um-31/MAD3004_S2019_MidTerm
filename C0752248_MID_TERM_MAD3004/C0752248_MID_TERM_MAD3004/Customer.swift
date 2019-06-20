@@ -32,6 +32,7 @@ class Customer: IDisplay{
         print("Customer Id: ",customerId!)
         print("Full Name: ",fullName)
         print("Email: ",email!)
+        print(arrayBills!)
         for bill in self.arrayBills! {
             bill.display()
         }

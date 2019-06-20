@@ -23,4 +23,8 @@ class Mobile: Bill{
         self.netUsed = netUsed
         super.init(billId: billId, billDate: billDate, billType: billType, billAmount: billAmount)
     }
+    
+    override func display() {
+        
+    }
 }

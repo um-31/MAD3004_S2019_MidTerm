@@ -29,5 +29,7 @@ class Bill: IDisplay {
         print("Bill Date: ",billDate!)
         print("Bill Type: ",billType!)
         print("Bill Amount: ",billAmount!)
+        
+        
     }
 }
