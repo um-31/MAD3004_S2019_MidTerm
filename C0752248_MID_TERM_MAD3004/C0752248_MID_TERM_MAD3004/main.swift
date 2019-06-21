@@ -33,3 +33,6 @@ var c3:Customer = Customer.init(customerId: 113, firstName: "Vipul", lastName: "
 c3.display()
 var c4:Customer = Customer.init(customerId: 114, firstName: "Rajvinder", lastName: "Sidhu", email: "rajsidhu@gmail.com", arrayBills: [])
 c4.display()
+
+c1.display(customerId: 111)
+c2.display(customerId: 114)

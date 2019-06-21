@@ -33,6 +33,7 @@ class Customer: IDisplay{
         self.email = email
         self.arrayBills = arrayBills
     }
+    
     var temp: Int = 0
     func display() {
         print("Customer Id: ",customerId!)
@@ -58,4 +59,10 @@ class Customer: IDisplay{
         print("")
     }
     
+    func display(customerId: Int) {
+        print("")
+        print("Customer Id: ",customerId)
+        print("Full Name: ",fullName)
+        print("Email: ",email!)
+    }
 }
