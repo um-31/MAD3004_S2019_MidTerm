@@ -10,6 +10,6 @@ import Foundation
 
 extension Float{
     public func units() -> String{
-        return String.init(format: "%d Units")
+        return String.init(format: "%d Units",self)
     }
 }

@@ -18,7 +18,13 @@ class Customer: IDisplay{
     }
     let email: String?
     var arrayBills: [Bill]?
-    var totalBill: Float?
+    var totalBill: Float{
+    var Total:Float = 0.0
+        for bills in arrayBills! {
+            Total = Total + bills.billAmount!
+    }
+        return Total
+    }
     
     init(customerId: Int,firstName: String,lastName: String,email: String,arrayBills: [Bill]) {
         self.customerId = customerId
@@ -36,6 +42,9 @@ class Customer: IDisplay{
         for bill in self.arrayBills! {
             bill.display()
         }
+        print("********************************")
+        print("Total Amount to Pay: ",totalBill.dollar())
+        print("********************************")
     }
     
 }

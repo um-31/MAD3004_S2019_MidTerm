@@ -25,6 +25,6 @@ class Internet: Bill{
         print("Bill Type: ",billType!)
         print("Bill Amount: ",billAmount!.dollar())
         print("Provide: ",providerName!)
-        print("Data Consumed: ",internetUsed!.gigaByte)
+        print("Data Consumed: ",internetUsed!.gigaByte())
     }
 }
