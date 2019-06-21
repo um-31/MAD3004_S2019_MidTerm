@@ -27,7 +27,9 @@ var h3:Hydro = Hydro.init(billId: 23, billDate: Date(), billType: "Hydro", billA
 //Customer Objects
 var c1:Customer = Customer.init(customerId: 111, firstName: "Udhay", lastName: "Mahajan", email: "udaymahajan0@gmail.com", arrayBills: [i1,m1,h1])
 c1.display()
-var c2:Customer = Customer.init(customerId: 112, firstName: "Udhay", lastName: "Mahajan", email: "udaymahajan0@gmail.com", arrayBills: [i2,m2,h2])
+var c2:Customer = Customer.init(customerId: 112, firstName: "Ujwal", lastName: "Arora", email: "ujwalaroa@gmail.com", arrayBills: [i2,m2,h2])
 c2.display()
-var c3:Customer = Customer.init(customerId: 113, firstName: "Udhay", lastName: "Mahajan", email: "udaymahajan0@gmail.com", arrayBills: [i3,i4,m3,h3])
+var c3:Customer = Customer.init(customerId: 113, firstName: "Vipul", lastName: "Garg", email: "vipul12340@gmail.com", arrayBills: [i3,i4,m3,h3])
 c3.display()
+var c4:Customer = Customer.init(customerId: 114, firstName: "Rajvinder", lastName: "Sidhu", email: "rajsidhu@gmail.com", arrayBills: [])
+c4.display()

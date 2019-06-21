@@ -26,15 +26,15 @@ class Mobile: Bill{
     
     override func display() {
         print("********************************")
-        print("Bill Id: ",billId!)
-        print("Bill Date: ",billDate!)
-        print("Bill Type: ",billType!)
-        print("Bill Amount: ",billAmount!.dollar())
-        print("Mobile Manufacturer: ", mobileManufacturer!)
-        print("Plane Name:",planName!)
-        print("Mobile No.: ",mobileNo!)
-        print("Internet Used: ",netUsed!.gigaByte())
-        print("Minutes Used: ",minuteUsed!," Minutes")
+        print("\t Bill Id: ",billId!)
+        print("\t Bill Date: ",billDate!.dateFormat())
+        print("\t Bill Type: ",billType!)
+        print("\t Bill Amount: ",billAmount!.dollar())
+        print("\t Mobile Manufacturer: ", mobileManufacturer!)
+        print("\t Plane Name:",planName!)
+        print("\t Mobile No.: ",mobileNo!)
+        print("\t Internet Used: ",netUsed!.gigaByte())
+        print("\t Minutes Used: ",minuteUsed!," Minutes")
         
     }
 }

@@ -20,11 +20,11 @@ class Internet: Bill{
     
     override func display() {
         print("********************************")
-        print("Bill Id: ",billId!)
-        print("Bill Date: ",billDate!.dateFormat())
-        print("Bill Type: ",billType!)
-        print("Bill Amount: ",billAmount!.dollar())
-        print("Provide: ",providerName!)
-        print("Data Consumed: ",internetUsed!.gigaByte())
+        print("\t Bill Id: ",billId!)
+        print("\t Bill Date: ",billDate!.dateFormat())
+        print("\t Bill Type: ",billType!)
+        print("\t Bill Amount: ",billAmount!.dollar())
+        print("\t Provide: ",providerName!)
+        print("\t Data Consumed: ",internetUsed!.gigaByte())
     }
 }
