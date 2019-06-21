@@ -23,8 +23,8 @@ class Hydro: Bill{
         print("Bill Id: ",billId!)
         print("Bill Date: ",billDate!)
         print("Bill Type: ",billType!)
-        print("Bill Amount: ",billAmount!)
+        print("Bill Amount: ",billAmount!.dollar())
         print("Agency Name: ",agencyName!)
-        print("Units Consumed: ",unitsConsumed!)
+        print("Units Consumed: ",unitsConsumed!.units)
     }
 }

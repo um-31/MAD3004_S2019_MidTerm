@@ -23,8 +23,8 @@ class Internet: Bill{
         print("Bill Id: ",billId!)
         print("Bill Date: ",billDate!)
         print("Bill Type: ",billType!)
-        print("Bill Amount: ",billAmount!)
+        print("Bill Amount: ",billAmount!.dollar())
         print("Provide: ",providerName!)
-        print("Data Consumed: ",internetUsed!)
+        print("Data Consumed: ",internetUsed!.gigaByte)
     }
 }

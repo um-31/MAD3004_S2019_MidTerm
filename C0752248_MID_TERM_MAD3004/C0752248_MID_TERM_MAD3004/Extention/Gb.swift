@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Int{
+extension Float{
     public func gigaByte() -> String{
         return String.init(format: "%d GB")
     }

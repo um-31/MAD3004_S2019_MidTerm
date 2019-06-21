@@ -29,12 +29,12 @@ class Mobile: Bill{
         print("Bill Id: ",billId!)
         print("Bill Date: ",billDate!)
         print("Bill Type: ",billType!)
-        print("Bill Amount: ",billAmount!)
+        print("Bill Amount: ",billAmount!.dollar())
         print("Mobile Manufacturer: ", mobileManufacturer!)
         print("Plane Name:",planName!)
         print("Mobile No.: ",mobileNo!)
-        print("Internet Used: ",netUsed!)
-        print("Minutes Used: ",minuteUsed!)
+        print("Internet Used: ",netUsed!.gigaByte())
+        print("Minutes Used: ",minuteUsed!," Minutes")
         
     }
 }

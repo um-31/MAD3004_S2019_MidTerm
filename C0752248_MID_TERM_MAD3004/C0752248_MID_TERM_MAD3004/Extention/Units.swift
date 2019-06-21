@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Int{
+extension Float{
     public func units() -> String{
         return String.init(format: "%d Units")
     }
