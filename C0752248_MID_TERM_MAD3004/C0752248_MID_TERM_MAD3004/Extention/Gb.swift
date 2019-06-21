@@ -10,6 +10,6 @@ import Foundation
 
 extension Float{
     public func gigaByte() -> String{
-        return String.init(format: "%d GB",self)
+        return String.init(format: "%f GB",self)
     }
 }
