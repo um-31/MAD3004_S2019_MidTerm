@@ -45,6 +45,8 @@ class Customer: IDisplay{
         print("********************************")
         print("Total Amount to Pay: ",totalBill.dollar())
         print("********************************")
+        print("")
+        print("")
     }
     
 }

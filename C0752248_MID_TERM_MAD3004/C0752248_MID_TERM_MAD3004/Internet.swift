@@ -21,7 +21,7 @@ class Internet: Bill{
     override func display() {
         print("********************************")
         print("Bill Id: ",billId!)
-        print("Bill Date: ",billDate!)
+        print("Bill Date: ",billDate!.dateFormat())
         print("Bill Type: ",billType!)
         print("Bill Amount: ",billAmount!.dollar())
         print("Provide: ",providerName!)
