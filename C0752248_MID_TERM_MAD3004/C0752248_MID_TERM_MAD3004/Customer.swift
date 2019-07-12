@@ -9,7 +9,6 @@
 import Foundation
 
 class Customer: IDisplay{
-    
     let customerId: Int?
     var firstName: String?
     var lastName: String?
